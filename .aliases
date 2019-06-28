@@ -1,0 +1,53 @@
+alias aliases="sublime ~/.aliases"
+
+# Navigation and Listing
+alias ls="ls -CF"
+alias ls1="ls -1F"
+alias ll="ls -lhA"
+alias ..="cd .."
+alias fhere="find . -name "
+
+# Git
+alias gl="git log"
+alias ga="git add"
+alias gs="git status"
+alias gaa="git add ."
+alias gc="git commit -m"
+alias gf="git fetch --all"
+alias gcw="git commit -m 'wip'"
+alias gb="git checkout -b"
+alias nah="git reset --hard && git clean -df"
+
+# Laravel
+alias artisan="php artisan"
+alias p="vendor/bin/phpunit"
+alias tinker="php artisan tinker"
+alias m="php artisan migrate"
+alias mf="php artisan migrate:fresh"
+alias mfs="php artisan migrate:fresh --seed"
+alias nah="git reset --hard && git clean -df"
+
+# Global Package Managers
+alias ugpm="brew update && composer self-update"
+alias ugp="brew upgrade && composer global upgrade && npm install -g npm && npm update --global"
+
+# Config Files
+alias hosts="sudo vim /etc/hosts"
+alias zshconfig="sublime ~/.zshrc"
+alias ohmyzsh="sublime ~/.oh-my-zsh"
+alias phpini="sublime /usr/local/etc/php/7.2/php.ini"
+alias xdebugconf="sublime /usr/local/etc/php/7.2/conf.d/ext-xdebug.ini"
+alias nginxconfig="sublime /usr/local/etc/nginx/nginx.conf"
+alias apacheconfig="sublime /usr/local/etc/httpd/httpd.conf"
+
+# CD
+alias sites="cd ~/Sites"
+alias endgame="cd ~/Sites/endgame"
+alias ia="cd ~/Sites/inclusive-access"
+alias uabookstores="cd ~/Code/uabookstores"
+
+# Miscellaneous
+alias mkdir="mkdir -pv"
+alias nrw="npm run watch"
+alias nrh="npm run hot"
+alias fcl="fortune | cowsay | lolcat"
