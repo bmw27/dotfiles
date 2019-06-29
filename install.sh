@@ -14,9 +14,6 @@ brew update
 brew tap homebrew/bundle
 brew bundle
 
-# Install Zeit's ZSH theme
-curl https://raw.githubusercontent.com/zeit/zeit.zsh-theme/master/zeit.zsh-theme -Lo ~/.oh-my-zsh/themes/zeit.zsh-theme
-
 # Make ZSH the default shell environment
 chsh -s $(which zsh)
 
@@ -40,7 +37,7 @@ npm install --global typescript
 # This is a default directory for macOS user accounts but doesn't comes pre-installed
 mkdir $HOME/Sites
 
-# Create a Sites directory
+# Create a Code directory
 mkdir $HOME/Code
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
