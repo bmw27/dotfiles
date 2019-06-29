@@ -51,14 +51,8 @@ defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 # Four-letter codes for the other view modes: `icnv`, `clmv`, `Flwv`
 defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 
-# Disable the warning before emptying the Trash
-defaults write com.apple.finder WarnOnEmptyTrash -bool false
-
 # Show the ~/Library folder
 chflags nohidden $HOME/Library
-
-# Auto hide menu bar
-defaults write NSGlobalDomain _HIHideMenuBar -bool true
 
 ###############################################################################
 # Safari & WebKit                                                             #
@@ -71,10 +65,6 @@ defaults write com.apple.Safari SuppressSearchSuggestions -bool true
 ###############################################################################
 # Mail                                                                        #
 ###############################################################################
-
-# Disable send and reply animations in Mail.app
-defaults write com.apple.mail DisableReplyAnimations -bool true
-defaults write com.apple.mail DisableSendAnimations -bool true
 
 # Copy email addresses as `foo@example.com` instead of `Foo Bar <foo@example.com>` in Mail.app
 defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false

@@ -1,4 +1,4 @@
-alias aliases="sublime ~/.aliases"
+alias aliases="code ~/.aliases"
 
 # Navigation and Listing
 alias ls="ls -CF"
@@ -33,12 +33,12 @@ alias ugp="brew upgrade && composer global upgrade && npm install -g npm && npm 
 
 # Config Files
 alias hosts="sudo vim /etc/hosts"
-alias zshconfig="sublime ~/.zshrc"
-alias ohmyzsh="sublime ~/.oh-my-zsh"
-alias phpini="sublime /usr/local/etc/php/7.2/php.ini"
-alias xdebugconf="sublime /usr/local/etc/php/7.2/conf.d/ext-xdebug.ini"
-alias nginxconfig="sublime /usr/local/etc/nginx/nginx.conf"
-alias apacheconfig="sublime /usr/local/etc/httpd/httpd.conf"
+alias zshconfig="code ~/.zshrc"
+alias ohmyzsh="code ~/.oh-my-zsh"
+alias phpini="code /usr/local/etc/php/7.2/php.ini"
+alias xdebugconf="code /usr/local/etc/php/7.2/conf.d/ext-xdebug.ini"
+alias nginxconfig="code /usr/local/etc/nginx/nginx.conf"
+alias apacheconfig="code /usr/local/etc/httpd/httpd.conf"
 
 # CD
 alias sites="cd ~/Sites"
