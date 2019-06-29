@@ -34,7 +34,6 @@ brew 'redis'
 # Apps
 cask '1password'
 cask 'adobe-creative-cloud'
-cask 'airbuddy'
 cask 'alfred'
 cask 'cisco-anyconnect'
 cask 'contraste'
