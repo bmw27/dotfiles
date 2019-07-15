@@ -1,8 +1,6 @@
 export DOTFILES="$HOME/.dotfiles"
 
-# Theme
 ZSH_THEME="zeit"
-
 DEFAULT_USER=`whoami`
 
 # Antibody

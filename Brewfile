@@ -51,6 +51,7 @@ cask 'notion'
 cask 'paw'
 cask 'slack'
 cask 'tableplus'
+cask 'tower'
 cask 'transmit'
 cask 'zoomus'
 
