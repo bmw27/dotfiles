@@ -1,4 +1,4 @@
-alias aliases="code ~/.aliases"
+alias aliases="vim ~/.aliases"
 
 # Navigation and Listing
 alias ls="ls -CF"
@@ -6,6 +6,7 @@ alias ls1="ls -1F"
 alias ll="ls -lhA"
 alias ..="cd .."
 alias fhere="find . -name "
+alias sites="cd ~/Sites"
 
 # Git
 alias gl="git log"
@@ -33,21 +34,14 @@ alias ugp="brew upgrade && composer global upgrade && npm install -g npm && npm 
 
 # Config Files
 alias hosts="sudo vim /etc/hosts"
-alias zshconfig="code ~/.zshrc"
-alias ohmyzsh="code ~/.oh-my-zsh"
-alias phpini="code /usr/local/etc/php/7.2/php.ini"
-alias xdebugconf="code /usr/local/etc/php/7.2/conf.d/ext-xdebug.ini"
-alias nginxconfig="code /usr/local/etc/nginx/nginx.conf"
-alias apacheconfig="code /usr/local/etc/httpd/httpd.conf"
-
-# CD
-alias sites="cd ~/Sites"
-alias endgame="cd ~/Sites/endgame"
-alias ia="cd ~/Sites/inclusive-access"
-alias uabookstores="cd ~/Code/uabookstores"
+alias zshconfig="vim ~/.zshrc"
+alias ohmyzsh="vim ~/.oh-my-zsh"
+alias nginxconfig="vim /usr/local/etc/nginx/nginx.conf"
+alias apacheconfig="vim /usr/local/etc/httpd/httpd.conf"
 
 # Miscellaneous
 alias mkdir="mkdir -pv"
+alias nrd="npm run dev"
 alias nrw="npm run watch"
 alias nrh="npm run hot"
 alias fcl="fortune | cowsay | lolcat"
