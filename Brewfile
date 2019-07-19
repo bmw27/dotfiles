@@ -39,7 +39,6 @@ cask 'contraste'
 cask 'discord'
 cask 'docker'
 cask 'firefox-developer-edition'
-cask 'github'
 cask 'google-chrome'
 cask 'hyper'
 cask 'java'
@@ -69,8 +68,10 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Mac App Store
-mas 'Bear', id: 1091189122
+# mas 'Bear', id: 1091189122
+mas 'Dato', id: 1470584107
 mas 'Keynote', id: 409183694
+mas 'Lungo', id: 1263070803
 mas 'Magnet', id: 441258766
 mas 'Microsoft Remote Desktop', id: 1295203466
 mas 'MindNode', id: 1289197285
@@ -79,4 +80,5 @@ mas 'Pages', id: 409201541
 mas 'The Unarchiver', id: 425424353
 mas 'Things', id: 904280696
 mas 'Tweetbot', id: 1384080005
+mas 'Ulysses', id: 1225570693
 mas "Xcode", id: 497799835
