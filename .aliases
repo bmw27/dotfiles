@@ -1,4 +1,4 @@
-alias aliases="vim ~/.aliases"
+alias aliases="vim ~/.dotfiles/.aliases"
 
 # Navigation and Listing
 alias ls="ls -CF"
