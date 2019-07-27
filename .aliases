@@ -41,7 +41,4 @@ alias apacheconfig="vim /usr/local/etc/httpd/httpd.conf"
 
 # Miscellaneous
 alias mkdir="mkdir -pv"
-alias nrd="npm run dev"
-alias nrw="npm run watch"
-alias nrh="npm run hot"
 alias fcl="fortune | cowsay | lolcat"
