@@ -23,10 +23,10 @@ alias nah="git reset --hard && git clean -df"
 alias artisan="php artisan"
 alias p="vendor/bin/phpunit"
 alias tinker="php artisan tinker"
+alias horizon="php artisan horizon"
 alias m="php artisan migrate"
 alias mf="php artisan migrate:fresh"
 alias mfs="php artisan migrate:fresh --seed"
-alias nah="git reset --hard && git clean -df"
 
 # Global Package Managers
 alias ugpm="brew update && composer self-update"
