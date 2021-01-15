@@ -14,3 +14,5 @@ source /Users/brandonwilliams/Library/Caches/antibody/https-COLON--SLASH--SLASH-
 fpath+=( /Users/brandonwilliams/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh/plugins/composer )
 source /Users/brandonwilliams/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh/plugins/laravel5/laravel5.plugin.zsh
 fpath+=( /Users/brandonwilliams/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh/plugins/laravel5 )
+source /Users/brandonwilliams/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-subnixr-SLASH-minimal/minimal.zsh
+fpath+=( /Users/brandonwilliams/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-subnixr-SLASH-minimal )

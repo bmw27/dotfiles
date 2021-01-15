@@ -1,6 +1,11 @@
 export DOTFILES="$HOME/.dotfiles"
 
-ZSH_THEME="zeit"
+# Minimal - Theme Settings
+export MNML_INSERT_CHAR="$"
+export MNML_PROMPT=(mnml_git mnml_keymap)
+export MNML_RPROMPT=('mnml_cwd 20')
+
+ZSH_THEME="minimal"
 DEFAULT_USER=`whoami`
 
 # Antibody
