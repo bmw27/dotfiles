@@ -29,8 +29,8 @@ alias mf="php artisan migrate:fresh"
 alias mfs="php artisan migrate:fresh --seed"
 
 # Global Package Managers
-alias ugpm="brew update && composer self-update"
-alias ugp="brew upgrade && composer global upgrade && npm install -g npm && npm update --global"
+alias ugpm="brew update && composer self-update && npm install -g npm"
+alias ugp="brew upgrade && composer global upgrade && npm update --global"
 
 # Config Files
 alias hosts="sudo vim /etc/hosts"
