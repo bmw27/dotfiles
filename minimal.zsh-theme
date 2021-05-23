@@ -1,0 +1,1 @@
+/Users/brandon/.oh-my-zsh/custom/themes/minimal/minimal.zsh

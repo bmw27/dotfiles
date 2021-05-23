@@ -2,11 +2,10 @@
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 
 # Load Node global installed binaries
-export PATH="/usr/local/Cellar/node/15.2.0/bin:$PATH"
-# export PATH="$HOME/.node/bin:$PATH"
+export PATH="$HOME/.node/bin:$PATH"
 
 # Use project specific binaries before global ones
 export PATH="node_modules/.bin:vendor/bin:$PATH"
 
 # Homebrew sbin
-export PATH="/usr/local/sbin:$PATH"
+#export PATH="/usr/local/sbin:$PATH"
