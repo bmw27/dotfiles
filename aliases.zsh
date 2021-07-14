@@ -46,6 +46,9 @@ alias build="npm run build"
 alias ugpm="brew update && composer self-update && npm install -g npm"
 alias ugp="brew upgrade && composer global upgrade && npm update --global"
 
+# Backwards Compatible Homebrew
+alias ibrew='arch -x86_64 /usr/local/bin/brew'
+
 # Config Files
 alias hosts="sudo vim /etc/hosts"
 alias zshconfig="vim ~/.zshrc"
