@@ -1,4 +1,4 @@
-alias aliases="vim ~/.dotfiles/.aliases"
+alias aliases="vim ~/.dotfiles/aliases.zsh"
 
 # Directories
 alias ..="cd .."
@@ -32,7 +32,7 @@ alias wip="commit wip"
 
 # Laravel
 alias a="php artisan"
-alias fresh="php artisan migrate:fresh --seed"
+alias fresh="php artisan migrate:fresh"
 alias seed="php artisan db:seed"
 
 # JS
